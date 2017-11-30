@@ -13,8 +13,9 @@ Steem Rewards Auto Claim Bot
 ### SETUP
 - Install NodeJS (https://nodejs.org).
 - Create a folder for your project and go into it.
-- Paste the script into a file, e.g. claim_rewards.js, and edit the CONFIG part.
+- Copy the script into a file, e.g. claim_rewards.js
 - Alternatively `git clone https://github.com/Jolly-Pirate/steem-claim-rewards`, then `cd steem-claim-rewards`
+- Edit the CONFIG part.
 - Install the steem package into your project folder: `npm install steem@latest --save`
 - Under linux, secure the file's permissions: `chmod 600 claim_rewards.js`
 - Run the script from the project's folder with: `node claim_rewards.js`
